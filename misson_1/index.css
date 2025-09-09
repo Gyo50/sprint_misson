@@ -1,4 +1,7 @@
         :root {
+            /* body color */
+            --body: #CFE5FF;
+
             /* primary color */
             --primary_100: #3692FF;
             --primary_200: #1967D6;
@@ -26,7 +29,7 @@
             font-family: 'pretendard', 'Abhaya Libre ExtraBold' -apple-system, BlinkMacSystemFont, system-ui, Roboto,
                 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic',
                 sans-serif;
-            background-color: var(--primary_100);
+            background-color: var(--body);
         }
 
         a {
